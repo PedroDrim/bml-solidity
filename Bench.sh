@@ -1,11 +1,13 @@
 #!/bin/bash
-bun start 100000
-bun start 200000
-bun start 300000
-bun start 400000
-bun start 500000
-bun start 600000
-bun start 700000
-bun start 800000
-bun start 900000
-bun start 1000000
+bun ganache
+
+bun start 1000
+bun start 2000
+bun start 3000
+bun start 4000
+bun start 5000
+bun start 6000
+bun start 7000
+bun start 8000
+bun start 9000
+bun start 10000

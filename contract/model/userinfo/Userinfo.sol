@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 /**
  * Informacoes do usuario
  */
-contract UserInfo {
+contract Userinfo {
 
     /**
      * Nome do usuario

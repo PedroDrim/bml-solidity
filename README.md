@@ -13,6 +13,7 @@ Ferramentas utilizadas neste repositório bem como suas versões:
 |Typescript |^5.0.0  |
 |Bun        |1.1.29  |
 |Docker     |24.0.7  |
+|solc       |0.8.28  |
 
 ### Instalação
 
@@ -37,11 +38,12 @@ sudo docker run simpleclass_solidity
 4. O resultado sairá no STDOUT no seguinte formato:
 
 ```
-$ bun index.ts "1000000"
-[START] Solidity_1000000
-[OK]Tamanho: 1000000
-[OK]Tempo: 599 ms
-[END] Solidity_1000000
+$ bun index.ts "2000"
+[START] Solidity_2000
+[OK]Tamanho: 2000
+[OK]Eth: 0.002510668943150238
+[OK]Tempo: 12251 ms
+[END] Solidity_2000
 ```
 
 ### Garantia de Qualidade

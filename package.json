@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "bun index.ts",
+    "ganache": "ganache -s 100 -D",
     "test": "bun test",
     "test:coverage": "bun test --coverage"
   },
@@ -12,5 +13,9 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ganache": "^7.9.2",
+    "web3": "^4.16.0"
   }
 }
