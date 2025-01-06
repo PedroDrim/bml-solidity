@@ -20,8 +20,7 @@ WORKDIR /app
 COPY --from=solc-compiler ./app /app/
 
 # Iniciando bun e executando testes
-#RUN bun install && bun test && bun ganache
-RUN bun install
+RUN bun install && bun ganache && bun test
 
 # Iniciando CLI
 ENTRYPOINT ["sh","Bench.sh"]

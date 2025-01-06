@@ -1,5 +1,5 @@
 #!/bin/bash
-bun ganache
+bun ganache > /dev/null
 
 bun start 1000
 bun start 2000
