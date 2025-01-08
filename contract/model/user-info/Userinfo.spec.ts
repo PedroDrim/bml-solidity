@@ -3,7 +3,7 @@ import Web3, { Contract } from "web3";
 import { ContractBuilder } from "../../../utils/ContractBuilder";
 
 const web3: Web3 = new Web3("http://127.0.0.1:8545")
-const contractBuilder: ContractBuilder<string[]> = new ContractBuilder("Userinfo")
+const contractBuilder: ContractBuilder<[string, string]> = new ContractBuilder("Userinfo")
 const sender: string = "0x9816353C1078529c5aE16f0cb044CC0a7BD88D31"
 
 describe("UserInfo", () => {
