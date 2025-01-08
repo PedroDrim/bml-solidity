@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../../model/user-info/Userinfo.sol";
+import "contract/model/user-info/Userinfo.sol";
 
 /**
  * Bloco de simulacao
