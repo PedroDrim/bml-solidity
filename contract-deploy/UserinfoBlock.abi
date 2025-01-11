@@ -1,1 +1,0 @@
-[{"inputs":[{"internalType":"uint256","name":"size","type":"uint256"},{"internalType":"string[]","name":"userList","type":"string[]"},{"internalType":"string[]","name":"passwordList","type":"string[]"}],"name":"genN","outputs":[{"internalType":"contract Userinfo[]","name":"","type":"address[]"}],"stateMutability":"nonpayable","type":"function"}]

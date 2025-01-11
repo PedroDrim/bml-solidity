@@ -18,13 +18,20 @@ contract Userinfo {
     string private _password;
 
     /**
+     * Credito do usuario
+     */
+    uint public credit;
+
+    /**
      * Construtor público da classe
      * @param userC Nome do usuario
      * @param passwordC Senha do usuario
+     * @param creditC Credito do usuario
      */
-    constructor(string memory userC, string memory passwordC)  {
+    constructor(string memory userC, string memory passwordC, uint creditC)  {
         user = userC;
         _password = passwordC;
+        credit = creditC;
     }
 
     /**

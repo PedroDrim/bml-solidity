@@ -58,4 +58,9 @@ export class ContractBuilder<C> {
 
         return response
     }
+
+    public async fromAddress(web3Provider: Web3, address: string): Promise<Contract<ContractAbi>> {
+        const response: Contract<ContractAbi> = new web3Provider.eth.Contract(await this._abi, address)
+        return response
+    }
 }
